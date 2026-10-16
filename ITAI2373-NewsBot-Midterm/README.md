@@ -39,7 +39,6 @@ Top TF-IDF key terms and entity frequency trends extracted across news categorie
 ## 📁 Repository Structure
 ```text
 ITAI2373-NewsBot-Midterm/
-ITAI2373-NewsBot-Midterm/
 ├── Midterm_NewsBot_Intelligence_System_Anikka_Williams.ipynb   # Main Jupyter Notebook
 ├── README.md                                                  # Project Documentation
 ├── Screenshot 2026-10-16 025501.png                           # NetworkX Knowledge Graph
