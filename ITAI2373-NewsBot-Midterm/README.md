@@ -20,3 +20,19 @@ The **NewsBot Intelligence System** is an end-to-end Natural Language Processing
 ITAI2373-NewsBot-Midterm/
 ├── Midterm_NewsBot_Intelligence_System_Anikka_Williams.ipynb   # Main Jupyter Notebook
 └── README.md                                                  # Project Documentation
+
+---
+
+### Visual Insights & Deliverables
+
+### NetworkX Entity Co-occurrence Network
+Relational network graph displaying entity co-occurrences and relationships across news categories:
+![Entity Co-occurrence Network](Screenshot%202026-10-16%20025501.png)
+
+### Category-Specific TF-IDF & Entity Trends
+Top TF-IDF key terms extracted per news category:
+
+| Business & Sports | Technology, Politics & Entertainment |
+| :---: | :---: |
+| ![Business TF-IDF Terms](Screenshot%202026-10-16%20025749.png) | ![Technology TF-IDF Terms](Screenshot%202026-10-16%20025813.png) |
+| ![Sports & Tech TF-IDF Terms](Screenshot%202026-10-16%20025826.png) | ![Politics & Entertainment TF-IDF Terms](Screenshot%202026-10-16%20025842.png) |
