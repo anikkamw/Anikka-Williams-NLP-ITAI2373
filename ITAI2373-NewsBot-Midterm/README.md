@@ -1,38 +1,27 @@
-#  ITAI 2373 - NewsBot Intelligence System
+# ITAI 2373 - NewsBot Intelligence System
 
-##  Project Overview
-The **NewsBot Intelligence System** is an end-to-end Natural Language Processing (NLP) pipeline designed to automatically process, categorize, and extract business intelligence from news articles. Built as part of the ITAI 2373 course curriculum, this system addresses real-world applications such as media monitoring, market research, and automated content management.
-
----
-
-##  Key NLP Features & Architecture
-- **Text Preprocessing & Pipeline:** Modular text cleaning, tokenization, lemmatization, and POS tagging using **spaCy** and **NLTK**.
-- **Vectorization & Feature Extraction:** High-dimensional feature conversion utilizing **TF-IDF Vectorization** with sparse matrix optimizations via **SciPy**.
-- **Named Entity Recognition (NER):** Entity tracking to identify organizations, locations, and key entities across news feeds.
-- **Dependency Parsing:** Custom parsing of spaCy dependency grammar trees to extract **Subject-Verb-Object (SVO)** action triples for relational analysis.
-- **Sentiment & Emotion Analysis:** Rule-based sentiment scoring utilizing **NLTK VADER**.
-- **Multi-Class Text Classification:** Machine learning models (**Logistic Regression**, **Multinomial Naive Bayes**, **SVC**) trained with class balancing to categorize news articles accurately.
+## Project Overview
+The **NewsBot Intelligence System** is an end-to-end Natural Language Processing (NLP) pipeline designed to automatically process, categorize, and extract actionable business intelligence from news articles. Built for the ITAI 2373 course curriculum, this system addresses real-world enterprise applications including media monitoring, market research, and automated content management.
 
 ---
 
-##  Repository Structure
+## Key NLP Features & Pipeline Architecture
+- **Modular Preprocessing:** Text cleaning, lowercasing, tokenization, lemmatization, and POS tagging built with **spaCy** and **NLTK**.
+- **Vectorization & Feature Engineering:** Conversion of raw text into high-dimensional numerical feature vectors utilizing **TF-IDF Vectorization** with sparse matrix optimizations via **SciPy**.
+- **Named Entity Recognition (NER):** Entity tracking to identify organizations, locations, and key entities across news feeds using spaCy (`en_core_web_sm`).
+- **Dependency Grammar Parsing:** Custom parsing of spaCy dependency trees to extract **Subject-Verb-Object (SVO)** action triples for relational analysis.
+- **Sentiment & Tone Analysis:** Rule-based sentiment scoring utilizing **NLTK VADER**.
+- **Multi-Class Text Classification:** Machine learning models (**Logistic Regression**, **Multinomial Naive Bayes**, **SVC**) trained with balanced class weighting.
+
+---
+
+## 📁 Repository Structure
 ```text
 ITAI2373-NewsBot-Midterm/
 ├── Midterm_NewsBot_Intelligence_System_Anikka_Williams.ipynb   # Main Jupyter Notebook
-└── README.md                                                  # Project Documentation
-
----
-
-### Visual Insights & Deliverables
-
-### NetworkX Entity Co-occurrence Network
-Relational network graph displaying entity co-occurrences and relationships across news categories:
-![Entity Co-occurrence Network](Screenshot%202026-10-16%20025501.png)
-
-### Category-Specific TF-IDF & Entity Trends
-Top TF-IDF key terms extracted per news category:
-
-| Business & Sports | Technology, Politics & Entertainment |
-| :---: | :---: |
-| ![Business TF-IDF Terms](Screenshot%202026-10-16%20025749.png) | ![Technology TF-IDF Terms](Screenshot%202026-10-16%20025813.png) |
-| ![Sports & Tech TF-IDF Terms](Screenshot%202026-10-16%20025826.png) | ![Politics & Entertainment TF-IDF Terms](Screenshot%202026-10-16%20025842.png) |
+├── README.md                                                  # Project Documentation
+├── Screenshot 2026-10-16 025501.png                           # Entity Network Graph
+├── Screenshot 2026-10-16 025749.png                           # Business TF-IDF Plot
+├── Screenshot 2026-10-16 025813.png                           # Sports & Tech TF-IDF Plot
+├── Screenshot 2026-10-16 025826.png                           # Sports & Tech TF-IDF Plot
+└── Screenshot 2026-10-16 025842.png                           # Politics & Entertainment TF-IDF Plot
