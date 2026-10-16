@@ -5,5 +5,5 @@ This repository contains my coursework and projects for Natural Language Process
 
 ## Featured Projects
 
-### [NewsBot Intelligence System](./Mid%20Term%20Project)
+### [NewsBot Intelligence System](./ITAI2373-NewsBot-Midterm)
 An end-to-end NLP intelligence pipeline that processes, categorizes, and extracts structured insights from news articles across Modules 1–8.
