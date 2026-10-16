@@ -1,11 +1,11 @@
-# ITAI 2373 - NewsBot Intelligence System
+#  ITAI 2373 - NewsBot Intelligence System
 
-## Project Overview
+##  Project Overview
 The **NewsBot Intelligence System** is an end-to-end Natural Language Processing (NLP) pipeline designed to automatically process, categorize, and extract actionable business intelligence from news articles. Built for the ITAI 2373 course curriculum, this system addresses real-world enterprise applications including media monitoring, market research, and automated content management.
 
 ---
 
-## Key NLP Features & Pipeline Architecture
+##  Key NLP Features & Pipeline Architecture
 - **Modular Preprocessing:** Text cleaning, lowercasing, tokenization, lemmatization, and POS tagging built with **spaCy** and **NLTK**.
 - **Vectorization & Feature Engineering:** Conversion of raw text into high-dimensional numerical feature vectors utilizing **TF-IDF Vectorization** with sparse matrix optimizations via **SciPy**.
 - **Named Entity Recognition (NER):** Entity tracking to identify organizations, locations, and key entities across news feeds using spaCy (`en_core_web_sm`).
@@ -15,7 +15,7 @@ The **NewsBot Intelligence System** is an end-to-end Natural Language Processing
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```text
 ITAI2373-NewsBot-Midterm/
 ├── Midterm_NewsBot_Intelligence_System_Anikka_Williams.ipynb   # Main Jupyter Notebook
@@ -25,3 +25,25 @@ ITAI2373-NewsBot-Midterm/
 ├── Screenshot 2026-10-16 025813.png                           # Sports & Tech TF-IDF Plot
 ├── Screenshot 2026-10-16 025826.png                           # Sports & Tech TF-IDF Plot
 └── Screenshot 2026-10-16 025842.png                           # Politics & Entertainment TF-IDF Plot
+
+---
+
+##  Visual Samples & Business Insights
+
+### NetworkX Knowledge Graph
+Relational knowledge graph built from extracted Subject-Verb-Object (SVO) triples to track entity co-occurrences and structural relationships across news categories:
+
+![Entity Network Graph](Screenshot%202026-10-16%20025501.png)
+
+---
+
+### spaCy Entity Trends
+Top TF-IDF key terms and entity frequency trends extracted across news categories to turn unstructured article text into actionable insights:
+
+![Business TF-IDF Plot](Screenshot%202026-10-16%20025749.png)
+
+![Technology TF-IDF Plot](Screenshot%202026-10-16%20025813.png)
+
+![Sports TF-IDF Plot](Screenshot%202026-10-16%20025826.png)
+
+![Politics & Entertainment TF-IDF Plot](Screenshot%202026-10-16%20025842.png)
