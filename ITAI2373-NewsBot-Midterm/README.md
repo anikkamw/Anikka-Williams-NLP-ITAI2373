@@ -28,22 +28,22 @@ ITAI2373-NewsBot-Midterm/
 
 ---
 
-##  Visual Samples & Business Insights
+## Visual Samples & Business Insights
 
 ### NetworkX Knowledge Graph
 Relational knowledge graph built from extracted Subject-Verb-Object (SVO) triples to track entity co-occurrences and structural relationships across news categories:
 
-![NetworkX Knowledge Graph](Screenshot 2026-10-16 025501.png)
+![NetworkX Knowledge Graph](Screenshot%202026-10-16%20025501.png)
 
 ---
 
 ### spaCy Entity Trends
 Top TF-IDF key terms and entity frequency trends extracted across news categories to turn unstructured article text into actionable insights:
 
-![Business Entity Trends](Screenshot 2026-10-16 025749.png)
+![Business Entity Trends](Screenshot%202026-10-16%20025749.png)
 
-![Technology Entity Trends](Screenshot 2026-10-16 025813.png)
+![Technology Entity Trends](Screenshot%202026-10-16%20025813.png)
 
-![Sports Entity Trends](Screenshot 2026-10-16 025826.png)
+![Sports Entity Trends](Screenshot%202026-10-16%20025826.png)
 
-![Politics & Entertainment Entity Trends](Screenshot 2026-10-16 025842.png)
+![Politics & Entertainment Entity Trends](Screenshot%202026-10-16%20025842.png)
