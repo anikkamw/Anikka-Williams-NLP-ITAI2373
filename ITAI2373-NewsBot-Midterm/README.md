@@ -46,4 +46,4 @@ Top TF-IDF key terms and entity frequency trends extracted across news categorie
 
 ![Sports Entity Trends](Screenshot 2026-10-16 025826.png)
 
-![Politics & Entertainment Entity Trends](Screenshot 2026-10-16 025842.png).png)
+![Politics & Entertainment Entity Trends](Screenshot 2026-10-16 025842.png)
