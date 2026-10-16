@@ -1,11 +1,11 @@
-# 🤖 ITAI 2373 - NewsBot Intelligence System
+#  ITAI 2373 - NewsBot Intelligence System
 
-## 📌 Project Overview
+##  Project Overview
 The **NewsBot Intelligence System** is an end-to-end Natural Language Processing (NLP) pipeline designed to automatically process, categorize, and extract actionable business intelligence from news articles. Built for the ITAI 2373 course curriculum, this system demonstrates how raw news text gets turned into actionable business insights.
 
 ---
 
-## 🛠️ Key NLP Features & Pipeline Architecture
+##  Key NLP Features & Pipeline Architecture
 - **Modular Preprocessing:** Text cleaning, lowercasing, tokenization, lemmatization, and POS tagging built with **spaCy** and **NLTK**.
 - **Vectorization & Feature Engineering:** Conversion of raw text into high-dimensional numerical feature vectors utilizing **TF-IDF Vectorization** with sparse matrix optimizations via **SciPy**.
 - **Named Entity Recognition (NER):** Entity tracking to identify organizations, locations, and key entities across news feeds using spaCy (`en_core_web_sm`).
@@ -39,6 +39,11 @@ Top TF-IDF key terms and entity frequency trends extracted across news categorie
 ## 📁 Repository Structure
 ```text
 ITAI2373-NewsBot-Midterm/
+ITAI2373-NewsBot-Midterm/
 ├── Midterm_NewsBot_Intelligence_System_Anikka_Williams.ipynb   # Main Jupyter Notebook
-└── README.md                                                  # Project Documentation
-
+├── README.md                                                  # Project Documentation
+├── Screenshot 2026-10-16 025501.png                           # NetworkX Knowledge Graph
+├── Screenshot 2026-10-16 025749.png                           # Business Entity Trends
+├── Screenshot 2026-10-16 025813.png                           # Technology Entity Trends
+├── Screenshot 2026-10-16 025826.png                           # Sports Entity Trends
+└── Screenshot 2026-10-16 025842.png                           # Politics & Entertainment Entity Trends
